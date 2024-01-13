@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Login Options">
+
+        <EditTextPreference
+            app:key="signature"
+            app:title="Username"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:key="sync"
+            app:title="Remember Login" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
